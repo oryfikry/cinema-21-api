@@ -39,6 +39,6 @@ app.use("/cineplex/movies", scrapeMovies);
 
 app.listen(port, () => {
   console.log(
-    `Jadalak API service [cineplex] listening at http://localhost:${port}/cineplex/`
+    `Jadalak API service [cineplex] listening at http://main-url:${port}/cineplex/`
   );
 });
