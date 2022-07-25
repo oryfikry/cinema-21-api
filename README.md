@@ -1,5 +1,6 @@
-
 # 21cineplex-api
+## this repo from https://github.com/heirro many thanks to him
+
 
 Scraping data dari 21cineplex untuk keperluan hobby dan riset, tidak ada hal yang berbahaya atau dapat merugikan website sumber.
 
