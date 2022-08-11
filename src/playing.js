@@ -2,7 +2,7 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 
 const url = "https://m.21cineplex.com/index.php";
-
+// testing add feature
 async function scrapePlaying() {
   try {
     const {
