@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const axios = require("axios");
 const cheerio = require("cheerio");
-
+// the theater api will be here 
 router.get("/:id", async (req, res) => {
   let url = "https://m.21cineplex.com/gui.list_theater.php?sid=&city_id=" + req.params.id;
   try {
