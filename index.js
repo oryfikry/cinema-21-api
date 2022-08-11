@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const port = 3180;
+const port = 80;
 
 app.use(cors());
 
@@ -37,8 +37,10 @@ app.use("/cineplex/schedule", scrapeSchedules);
 app.use("/cineplex/movies", scrapeMovies);
 
 
+// app.listen();
+
 app.listen(port, () => {
   console.log(
-    `Jadalak API service [cineplex] listening at http://localhost:${port}/cineplex/`
+    `Jadalak API service [cineplex] listening at http://main-url:${port}/cineplex/`
   );
 });
